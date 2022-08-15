@@ -243,17 +243,24 @@ Toastr is a Javascript library for non-blocking notifications which lets you cre
 In order to use it, download and include the jQuery Toastr plugin's files into your webpage which has jQuery library installed.
 
 <link href="toastr.css" rel="stylesheet">
+
 <script src="//code.jquery.com/jquery.min.js"></script>
+
 <script src="toastr.js"></script>
 
 These are the default toast messages that are available to diplay:
 
 // with no title
+
 toastr.warning('Warning')
+
 toastr.success('Success')
+
 toastr.info('Info')
 
+
 // with a title
+
 toastr.error('Error','Error Title')
 
 
